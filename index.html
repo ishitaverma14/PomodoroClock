@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title> Clock</title>
+        <link rel="stylesheet" href="layout.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body  onload="resetTime()">
+        <div id="box" >
+            <div class="box1" >
+                
+                <div id="timer">
+                    <label id="show">
+                        
+                    </label>
+                </div>
+                <div id="section">
+                    <span id ="break">Break !</span>
+                    <span id="session">Session 1</span>
+                </div>
+            </div>
+            <div class="box2" >
+                <div id="setting">
+                    <div class="bttn" >
+                        <p >
+                            session time
+                        </p>
+                        <label id="session_time" class="time">
+                            0 min
+                        </label>
+                        <div class="btn4">
+                            <div id="session-" class="setting_btn" >
+                                -
+                            </div>
+                            <div id="session+" class="setting_btn" >
+                                +
+                            </div>
+                        </div>  
+                    </div>
+                    
+                    <div class="bttn" style="float:right">
+                        <p >
+                            break time
+                        </p>
+                        <label id="break_time" class="time">
+                            0 min
+                        </label>
+                        <div class="btn4">
+                            <div id="break-" class="setting_btn" >
+                                -
+                            </div>
+                            <div id="break+" class="setting_btn" >
+                                +
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <div id="pause" class="button" onclick="pauseTime()" >
+                                Pause
+                    </div>
+                    <div id="start" class="button" onclick="startTime()">
+                                Start
+                    </div>
+                    <div id="reset" class="button" onclick="resetTime()">
+                        Reset
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>    
+    <script src="time.js" language="javaScript" type="text/javascript"></script>
+</html>
