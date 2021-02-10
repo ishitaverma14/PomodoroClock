@@ -1,0 +1,139 @@
+body, html{
+    background-color:rgba(243, 231, 209, 0.842) !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+#box
+{
+    height : 460px;
+    width : 220px;
+    background-color: rgba(0, 0, 0, 0.74);
+    opacity: .9;
+    
+
+}
+
+.box1
+{
+    height: 50%;
+}
+.box2
+{
+    height: 50%;
+    
+}
+
+#timer
+{
+    background-color: white;
+    margin: 10px;
+    height: 70%;
+    border: 10px solid cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn4
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+#section
+{
+    height: 20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color:aliceblue;
+    border-bottom: 3px dotted rgba(255, 255, 255, 0.842);
+}
+#break
+{
+    display: none;
+}
+#show
+{
+    font-size: 30px;   
+}
+#setting
+{
+    margin:10px;
+    
+    height:55%;
+}
+.bttn
+{
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    
+    
+    
+}
+p
+{
+    
+    padding-top:5px;
+    color:white;
+    text-align: center;
+    
+}
+.time
+{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    
+}
+#session_time
+{
+
+    color:cyan;
+
+}
+#break_time
+{
+    color:orange;
+}
+.setting_btn
+{
+    display: inline-block;
+    color:white;
+    background-color: black;
+    width:30px;
+    height:20px;
+    text-align: center;
+    cursor:pointer;
+    margin:2px;
+}
+#buttons
+{
+    display: flex;
+    justify-content: center;
+    padding-top:15px;
+    border-top: 3px dotted rgba(255, 255, 255, 0.842);
+}
+.button
+{
+    display: inline-block;
+    padding-top: 7px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    width:100px;
+    height:40px;
+    cursor:pointer;
+    margin:2px;
+}
+#pause
+{
+    display: none;
+}
